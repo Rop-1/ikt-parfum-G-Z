@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="product-page"> - Superz.</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobil/mobil.css">
+    <!-- fontawesome --> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- cookieyes --> <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/880ebffc1b1bfd828888236a/script.js"></script>
+    <script src="https://kit.fontawesome.com/b33957f698.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="row" style="width: 100%;">
+          <div class="col-lg-12">
+            <p><a href="index.html"><img src="img/Superz-logo.avif" alt="Superz." title="Superz."></a></p>
+          
+            <div class="ikonok">
+              <a href="#"><i class="fa-solid fa-magnifying-glass icons"></i></a>
+              <a href="#"><i class="fa-solid fa-user icons"></i></a>
+              <a href="#"><i class="fa-solid fa-cart-shopping icons"></i></a>
+            </div>
+        </div>
+          <nav>
+              <div class="navi pb-4 pt-3" id="NavBar">  
+                  <ul>
+                      <li><a href="#">Parfümök</a></li>
+                      <li><a href="#">Parfümolaj</a></li>
+                      <li><a href="#">Kedvezmények</a></li>
+                      <li><a href="#">Minták</a></li>
+                      <li><a href="#">Kiegészítők</a></li>
+                      <li><a href="#">Testápolás</a></li>
+                      <li><a href="#">Otthon</a></li>
+                      <li><a href="#">Ajándékutalvány</a></li>
+                      <li><a href="#">Karrier</a></li>
+                      <li><a href="#">Üzleteink</a></li>
+                  </ul>
+                  
+                      <a href="javascript:void(0);" class="icon" onclick="responsive()">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                </div>
+          </nav>
+      </header>
+<main>
+  <div id="product-container">
+    <div class="row">
+      <div class="col-lg-6">
+        <img id="product-image" class="" alt="">
+      </div>
+      <div class="col-lg-6">
+        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a class="bread-a" href="index.html">Főoldal</a></li>
+            <li class="breadcrumb-item"><a class="bread-a" href="index.html">Parfümök</a></li>
+            <li class="breadcrumb-item active text-white" id="product-folder" aria-current="page"></li>
+          </ol>
+        </nav>
+        <h1 id="product-name" class="mt-5 mb-5 pc-e"></h1>
+        <p id="product-velemeny" class="pc-e"></p>
+        <p id="product-price" class="pc-e"></p>
+        <p class="pc-e mb-0 pb-0">🚚 Ingyenes szállítás 40.000Ft feletti vásárláskor!</p>
+        <p class="pc-e mt-0 pt-0">Az ár az ÁFÁ-t tartalmazza. Shipping kalkuláció a pénztárnál.</p>
+        <p class="pc-e">Darabszám:</p>
+        <div class="input-wrapper">
+          <input type="number" name="dbsz" id="dbsz" placeholder="1">
+      </div>      
+        <button type="button" class="mt-4 vasarlas">Vásárlás</button>
+        <button type="button" class="mt-4 vasarlas">Pay With PayPal</button>
+      </div>
+    </div>
+  </div>
+  <div id="product-container">
+    <div class="row mt-5 pt-5">
+      <div class="col-lg-6 szovegek">
+        <h2 id="product-fedezd_fel" class="text-uppercase"></h2>
+        <p id="product-leiras" class="mt-5 mb-5 fs-5"></p>
+        <p id="product-szoveg" class="fs-5"></p>
+      </div>
+      <div class="col-lg-6">
+        <img id="product-accord" class="w-75" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="cite mt-5 mb-3"></div>
+  </main>
+    
+    <footer class="footer">
+      <div class="footer-background">
+        <div class="container row">
+            <div class="col-lg-6 mt-4 footer-a">
+              <p class="fw-bold">További információk</p>
+                <a href="rolunk.html">Rólunk</a>
+                <a href="aszf.html" class="text-uppercase">ÁSZF</a>
+                <a href="szallitasi-informaciok.html">Szállítási információk</a>
+                <a href="adatvedelmi-nyilatkozat.html">Adatvédelmi nyilatkozat</a>
+                <a href="termek-visszakuldes.html">Termék visszaküldés</a>
+            </div>
+            <div class="col-lg-6 mt-4">
+              <p class="fw-bold">Iratkozz fel a kedvezményekért</p>
+              <div class="input-group">
+                <input type="email" class="form-control bg-white" name="email" id="email" placeholder="Email cím">
+                <button class="btn feliratkozas text-black bg-white">Feliratkozás</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row container mt-5">
+          <div class="col-lg-6 footer-link">
+            <a href="#"><i class="fa-brands fa-square-facebook icons fs-4"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram icons fs-4"></i></a>
+            <a href="#"><i class="fa-brands fa-square-youtube icons fs-4"></i></a>
+          </div>
+          <div class="col-lg-6 svg">
+            <a><img src="img/svg/visa-classic-svgrepo-com.svg" alt=""></a>
+            <a><img src="img/svg/paypal-color-svgrepo-com.svg" alt=""></a>
+            <a><img src="img/svg/mastercard-svgrepo-com.svg" alt=""></a>
+            <a><img src="img/svg/apple-pay-logo-svgrepo-com.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="row container pb-0 mb-0">
+          <div class="col-lg-6 pb-0 mb-0 f-p">
+            <p>&copy; 2025, Superz. Powered by Superz.</p>
+          </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/product.js"></script>
+</body>
+</html>
